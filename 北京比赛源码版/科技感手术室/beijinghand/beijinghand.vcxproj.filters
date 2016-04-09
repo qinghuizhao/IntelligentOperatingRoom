@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\beijinghand.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\beijinghand.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BTN_BK_7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大run.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大床.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大电话.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大脚上.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大脚下.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大浏览.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大内科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大神经.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大头上.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大头下.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大外科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大五官.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大右.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大左 .bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小run.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小床.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小电话.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小脚上.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小脚下.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小浏览.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小内科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小神经.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小头上.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小头下.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小外科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小五官.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小右.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小左.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\智能手术室.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="12.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\123.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小传染科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大传染科.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\322.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jianbeijing1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jianbeijing2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jianbeijing3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jianbeijing4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jianbeijing5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\jianbeijing6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bCK1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\darun.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\xiaorun.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\中南大学.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\videophone.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\back0.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\read.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\20151004032838618_easyicon_net_128.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="beijinghand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="beijinghandDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DJWStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="USkin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHMXStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Reading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YaoC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="beijinghand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="beijinghandDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DJWStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHMXStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Reading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YaoC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="beijinghand.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

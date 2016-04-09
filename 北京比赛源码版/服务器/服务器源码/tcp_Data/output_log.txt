@@ -1,0 +1,64 @@
+Initialize engine version: 5.0.2f1 (0b02744d4013)
+Initialize engine version: 5.0.2f1 (0b02744d4013)
+GfxDfxDevice: areag devdevice clt;nt; thred=1
+d=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel((R) 411 Expres s Chips t (ID=0x32)
+   
+ Vendor:or:   Int
+el
+    VRAM:  128 MB
+ MB
+Begin MonoManager ReloadAssembly
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\zhao\DesktopPTCPTesf\tcp_Data\Man: gC:\UnstyEngine.dll (thop\TCPsage \stcp_Dless)nagLoading C:\Uners\zla (thiktop\TsPsese tcp_Data\sas)
+edLUnitynng C:\dll into o\DeskChild PTest\t
+cp_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_DPta\Managed\AssemblyC:\Users\zhao\Des message isst\tcp_Data\M
+anaged\Assembly-CSharp.dll (thip\TCPTest\tcp_Datmless)
+ed\AssemblyC:\Users\zhao\Desktop\TCPTest\tcp_Da
+ta\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.533 seconds
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.543 seconds
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\zhao\Desktop\TCPTest\tcp_Data\Managed\System.dll (this message is harmless)
+TCPstart
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for a connection...
+Waiting for a connection...
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for a connection...
+-5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for a connection...
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for a connection...
+-5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+

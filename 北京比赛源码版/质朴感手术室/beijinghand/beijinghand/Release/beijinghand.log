@@ -1,0 +1,62 @@
+﻿生成启动时间为 2015/10/4 16:12:09。
+     1>项目“F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\beijinghand\beijinghand.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\beijinghand.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         F:\SoftTool\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\beijinghand.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PhoneDlg.cpp Reading.cpp YaoC.cpp beijinghand.cpp beijinghandDlg.cpp
+         PhoneDlg.cpp
+     1>f:\softtool\opencv2.49\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>PhoneDlg.cpp(236): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>PhoneDlg.cpp(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>PhoneDlg.cpp(227): warning C4101: “frame”: 未引用的局部变量
+         Reading.cpp
+     1>f:\softtool\opencv2.49\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         YaoC.cpp
+     1>YaoC.cpp(273): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>YaoC.cpp(258): warning C4101: “bufRecv”: 未引用的局部变量
+         beijinghand.cpp
+     1>f:\softtool\opencv2.49\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         beijinghandDlg.cpp
+     1>f:\softtool\opencv2.49\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\SoftTool\VS2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>beijinghandDlg.cpp(282): warning C4018: “<”: 有符号/无符号不匹配
+     1>beijinghandDlg.cpp(307): warning C4244: “参数”: 从“XnFloat”转换到“int”，可能丢失数据
+     1>beijinghandDlg.cpp(307): warning C4244: “参数”: 从“XnFloat”转换到“int”，可能丢失数据
+     1>beijinghandDlg.cpp(308): warning C4244: “参数”: 从“XnFloat”转换到“int”，可能丢失数据
+     1>beijinghandDlg.cpp(308): warning C4244: “参数”: 从“XnFloat”转换到“int”，可能丢失数据
+     1>beijinghandDlg.cpp(337): warning C4996: 'xn::Context::Shutdown': You may use Release() instead, or count on dtor
+                 e:\program files (x86)\openni\include\XnCppWrapper.h(9552) : 参见“xn::Context::Shutdown”的声明
+       ResourceCompile:
+         E:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\beijinghand.res" beijinghand.rc 
+       Link:
+         F:\SoftTool\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\Release\beijinghand.exe" /INCREMENTAL:NO /NOLOGO USkin.lib openNI.lib opencv_core249.lib opencv_highgui249.lib opencv_video249.lib opencv_ml249.lib opencv_legacy249.lib opencv_imgproc249.lib opencv_calib3d249.lib /MANIFEST /ManifestFile:"Release\beijinghand.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\Release\beijinghand.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\Release\beijinghand.lib" /MACHINE:X86 Release\beijinghand.res
+         Release\beijinghand.obj
+         Release\beijinghandDlg.obj
+         Release\CHMXStatic.obj
+         Release\CvvImage.obj
+         Release\DJWStatic.obj
+         Release\PhoneDlg.obj
+         Release\Reading.obj
+         Release\stdafx.obj
+         Release\YaoC.obj
+         正在生成代码
+     1>f:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\beijinghand\beijinghanddlg.cpp(450): warning C4715: “ProcessGesture”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         beijinghand.vcxproj -> F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\Release\beijinghand.exe
+       Manifest:
+         E:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\Release\beijinghand.exe;#1" /manifest Release\beijinghand.exe.intermediate.manifest F:\SoftTool\VS2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\beijinghand.unsuccessfulbuild”。
+         正在对“Release\beijinghand.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\智能手术室20151003\质朴的手术室\beijinghand2015102\beijinghand\beijinghand\beijinghand.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:38.92

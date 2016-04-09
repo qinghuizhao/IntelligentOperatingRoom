@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{21EA1332-F3A9-4ECF-8497-2B0B89BF8CAE}</ProjectGuid>
+    <RootNamespace>beijinghand</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>E:\Program Files (x86)\OpenNI\Lib;F:\SoftTool\opencv2.49\opencv\build\x86\vc10\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Program Files (x86)\OpenNI\Include;F:\SoftTool\opencv2.49\opencv\build\include;F:\SoftTool\opencv2.49\opencv\build\include\opencv;F:\SoftTool\opencv2.49\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\Program Files (x86)\OpenNI\Include;F:\SoftTool\opencv2.49\opencv\build\include;F:\SoftTool\opencv2.49\opencv\build\include\opencv;F:\SoftTool\opencv2.49\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\SoftTool\opencv2.49\opencv\build\x86\vc10\lib;E:\Program Files (x86)\OpenNI\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>USkin.lib;openNI.lib;opencv_core249d.lib;opencv_highgui249d.lib;opencv_video249d.lib;opencv_ml249d.lib;opencv_legacy249d.lib;opencv_imgproc249d.lib;opencv_calib3d249.lib;opencv_calib3d249d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>USkin.lib;openNI.lib;opencv_core249.lib;opencv_highgui249.lib;opencv_video249.lib;opencv_ml249.lib;opencv_legacy249.lib;opencv_imgproc249.lib;opencv_calib3d249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="12.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\20151004032838618_easyicon_net_128.ico" />
+    <None Include="res\beijinghand.ico" />
+    <None Include="res\beijinghand.rc2" />
+    <None Include="res\BTN_BK_1.bmp" />
+    <None Include="res\BTN_BK_2.bmp" />
+    <None Include="res\BTN_BK_3.bmp" />
+    <None Include="res\BTN_BK_4.bmp" />
+    <None Include="res\BTN_BK_5.bmp" />
+    <None Include="res\BTN_BK_6.bmp" />
+    <None Include="res\BTN_BK_7.bmp" />
+    <None Include="res\callback.bmp" />
+    <None Include="res\chuangback.bmp" />
+    <None Include="res\darun.bmp" />
+    <None Include="res\jianbeijing5.bmp" />
+    <None Include="res\readback.bmp" />
+    <None Include="res\大run.bmp" />
+    <None Include="res\大五官.bmp" />
+    <None Include="res\大传染科.bmp" />
+    <None Include="res\大内科.bmp" />
+    <None Include="res\大右.bmp" />
+    <None Include="res\大外科.bmp" />
+    <None Include="res\大头上.bmp" />
+    <None Include="res\大头下.bmp" />
+    <None Include="res\大左 .bmp" />
+    <None Include="res\大床.bmp" />
+    <None Include="res\大浏览.bmp" />
+    <None Include="res\大电话.bmp" />
+    <None Include="res\大神经.bmp" />
+    <None Include="res\大脚上.bmp" />
+    <None Include="res\大脚下.bmp" />
+    <None Include="res\小run.bmp" />
+    <None Include="res\小五官.bmp" />
+    <None Include="res\小传染科.bmp" />
+    <None Include="res\小内科.bmp" />
+    <None Include="res\小右.bmp" />
+    <None Include="res\小外科.bmp" />
+    <None Include="res\小头上.bmp" />
+    <None Include="res\小头下.bmp" />
+    <None Include="res\小左.bmp" />
+    <None Include="res\小床.bmp" />
+    <None Include="res\小浏览.bmp" />
+    <None Include="res\小电话.bmp" />
+    <None Include="res\小神经.bmp" />
+    <None Include="res\小脚上.bmp" />
+    <None Include="res\小脚下.bmp" />
+    <None Include="res\智能手术室.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="beijinghand.h" />
+    <ClInclude Include="beijinghandDlg.h" />
+    <ClInclude Include="CHMXStatic.h" />
+    <ClInclude Include="CvvImage.h" />
+    <ClInclude Include="DJWStatic.h" />
+    <ClInclude Include="PhoneDlg.h" />
+    <ClInclude Include="Reading.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="USkin.h" />
+    <ClInclude Include="YaoC.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="beijinghand.cpp" />
+    <ClCompile Include="beijinghandDlg.cpp" />
+    <ClCompile Include="CHMXStatic.cpp" />
+    <ClCompile Include="CvvImage.cpp" />
+    <ClCompile Include="DJWStatic.cpp" />
+    <ClCompile Include="PhoneDlg.cpp" />
+    <ClCompile Include="Reading.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="YaoC.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="beijinghand.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="beijinghand.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
